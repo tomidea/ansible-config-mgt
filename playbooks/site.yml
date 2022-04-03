@@ -5,7 +5,6 @@
 - hosts: uat-webservers
 - import_playbook: ../static-assignments/uat-webservers.yml
 
--  hosts: webservers
+- hosts: webservers
 - name: Webserver assignment
   import_playbook: ../static-assignments/webservers.yml
-  
